@@ -63,6 +63,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Controls\MessageDisplay.ascx" />
+    <Content Include="Controls\OperatorDisplay.ascx" />
     <Content Include="Controls\OperatorServiceSelect.ascx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -120,6 +121,13 @@
     </Compile>
     <Compile Include="Controls\MessageDisplay.ascx.designer.cs">
       <DependentUpon>MessageDisplay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OperatorDisplay.ascx.cs">
+      <DependentUpon>OperatorDisplay.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\OperatorDisplay.ascx.designer.cs">
+      <DependentUpon>OperatorDisplay.ascx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

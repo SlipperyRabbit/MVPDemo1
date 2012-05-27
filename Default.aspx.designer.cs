@@ -29,5 +29,14 @@ namespace MVPDemo1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::MVPDemo1.Controls.OperatorServiceSelect OSS1;
+        
+        /// <summary>
+        /// OD1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::MVPDemo1.Controls.OperatorDisplay OD1;
     }
 }
