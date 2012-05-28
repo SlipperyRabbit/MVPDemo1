@@ -7,54 +7,36 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVPDemo1 {
+namespace MVPDemo1.Controls {
     
     
-    public partial class _Default {
+    public partial class SiteSelect {
         
         /// <summary>
-        /// MD1 control.
+        /// pnlWrapper control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::MVPDemo1.Controls.MessageDisplay MD1;
+        protected global::System.Web.UI.WebControls.Panel pnlWrapper;
         
         /// <summary>
-        /// OSS1 control.
+        /// gvSitesSelect control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::MVPDemo1.Controls.OperatorServiceSelect OSS1;
+        protected global::System.Web.UI.WebControls.GridView gvSitesSelect;
         
         /// <summary>
-        /// OD1 control.
+        /// lblSelectedSite control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::MVPDemo1.Controls.OperatorDisplay OD1;
-        
-        /// <summary>
-        /// SiteDisplay1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::MVPDemo1.Controls.SiteDisplay SiteDisplay1;
-        
-        /// <summary>
-        /// SS1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::MVPDemo1.Controls.SiteSelect SS1;
+        protected global::System.Web.UI.WebControls.Label lblSelectedSite;
     }
 }
