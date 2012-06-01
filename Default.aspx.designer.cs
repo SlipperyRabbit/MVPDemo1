@@ -40,6 +40,15 @@ namespace MVPDemo1 {
         protected global::MVPDemo1.Controls.OperatorDisplay OD1;
         
         /// <summary>
+        /// LoginBySiteID1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::MVPDemo1.Controls.LoginBySiteID LoginBySiteID1;
+        
+        /// <summary>
         /// SiteDisplay1 control.
         /// </summary>
         /// <remarks>

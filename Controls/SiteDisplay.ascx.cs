@@ -8,6 +8,7 @@ using WebFormsMvp;
 using MVPDemo1.Logic.Presentation;
 using WebFormsMvp.Web;
 using MVPDemo1.Logic.OperatorDataServices;
+using MVPDemo1.Logic.Views;
 
 namespace MVPDemo1.Controls
 {
