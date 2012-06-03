@@ -13,6 +13,15 @@ namespace MVPDemo1 {
     public partial class _Default {
         
         /// <summary>
+        /// SelectSecurityHeader1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::MVPDemo1.Controls.SelectSecurityHeader SelectSecurityHeader1;
+        
+        /// <summary>
         /// MD1 control.
         /// </summary>
         /// <remarks>

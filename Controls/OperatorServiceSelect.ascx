@@ -4,7 +4,7 @@
 		DataSource='<%# Model.Operators %>'
 		DataValueField="StateAbbr"
 		DataTextField="OperatorName"
-		SelectedValue='<%# Model.SelectedOperatorStateAbbr %>'
+		SelectedValue='<%# Model.SelectedStateAbbr %>'
 		OnSelectedIndexChanged="View_SelectModel" >
 	</asp:DropDownList>
 </asp:Panel>

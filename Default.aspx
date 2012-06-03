@@ -7,6 +7,7 @@
 <%@ Register Src="Controls/SiteSelect.ascx" TagName="SiteSelect" TagPrefix="uc4" %>
 <%@ Register src="Controls/SiteDisplay.ascx" tagname="SiteDisplay" tagprefix="uc5" %>
 <%@ Register src="Controls/LoginBySiteID.ascx" tagname="LoginBySiteID" tagprefix="uc6" %>
+<%@ Register src="Controls/SelectSecurityHeader.ascx" tagname="SelectSecurityHeader" tagprefix="uc7" %>
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
@@ -16,6 +17,8 @@
     <p>
 				This is my first MVP Demo!
     </p>
+	
+		<uc7:SelectSecurityHeader ID="SelectSecurityHeader1" runat="server" />
 	
 		<uc1:MessageDisplay ID="MD1" runat="server" />
 		<uc2:OperatorServiceSelect ID="OSS1" runat="server" />

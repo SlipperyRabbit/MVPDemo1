@@ -67,6 +67,7 @@
     <Content Include="Controls\MessageDisplay.ascx" />
     <Content Include="Controls\OperatorDisplay.ascx" />
     <Content Include="Controls\OperatorServiceSelect.ascx" />
+    <Content Include="Controls\SelectSecurityHeader.ascx" />
     <Content Include="Controls\SiteDisplay.ascx" />
     <Content Include="Controls\SiteSelect.ascx" />
     <Content Include="Styles\Site.css" />
@@ -139,6 +140,13 @@
     </Compile>
     <Compile Include="Controls\OperatorDisplay.ascx.designer.cs">
       <DependentUpon>OperatorDisplay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SelectSecurityHeader.ascx.cs">
+      <DependentUpon>SelectSecurityHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SelectSecurityHeader.ascx.designer.cs">
+      <DependentUpon>SelectSecurityHeader.ascx</DependentUpon>
     </Compile>
     <Compile Include="Controls\SiteDisplay.ascx.cs">
       <DependentUpon>SiteDisplay.ascx</DependentUpon>

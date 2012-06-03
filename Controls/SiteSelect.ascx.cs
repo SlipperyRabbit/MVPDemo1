@@ -20,12 +20,23 @@ namespace MVPDemo1.Controls
 		{
 		}
 
+		public string StateAbbr
+		{
+			get { return (string) Session["StateAbbr"]; }
+			set { Session["StateAbbr"] = value; }
+		}
+
 		public void View_SelectSiteID(object sender, GridViewCommandEventArgs e)
 		{
 			if (SelectSiteID == null) return;
 			var index = int.Parse(e.CommandArgument.ToString());
 			var selectedSiteID = (int)gvSitesSelect.DataKeys[index].Value;
-			SelectSiteID(this, new SiteSelectEventArgs { SelectedSiteID = selectedSiteID });
+			var siteSelectEventArgs = new SiteSelectEventArgs
+			{ 
+				SelectedSiteID = selectedSiteID,
+				SelectedStateAbbr = StateAbbr
+			};
+			SelectSiteID(this, siteSelectEventArgs);
 		}
 	}
 }

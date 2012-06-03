@@ -18,6 +18,10 @@ namespace MVPDemo1.Controls
 	{
 		public dsOperator Operator { get; set; }
 		public bool IsVisible { get; set; }
+		public string StateAbbr
+		{
+			get { return (string)Session["StateAbbr"]; }
+		}
 		protected void Page_Load(object sender, EventArgs e)
 		{
 

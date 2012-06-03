@@ -18,6 +18,12 @@ namespace MVPDemo1.Controls
 	{
 		public dsOperator Operator { get; set; }
 		public bool IsVisible { get; set; }
+		public string StateAbbr
+		{
+			get { return (string)Session["StateAbbr"]; }
+			set { Session["StateAbbr"] = value; }
+		}
+
 		public event EventHandler<OperatorSelectEventArgs> SelectModel;
 
 		protected void Page_Load(object sender, EventArgs e)
@@ -30,8 +36,9 @@ namespace MVPDemo1.Controls
 			if (SelectModel == null) return;
 			SelectModel(this, new OperatorSelectEventArgs
 			{
-			  SelectedOperatorStateAbbr = ddlOperators.SelectedValue
+			  SelectedStateAbbr = ddlOperators.SelectedValue
 			});
+			StateAbbr = ddlOperators.SelectedValue;
 		}
 	}
 }
