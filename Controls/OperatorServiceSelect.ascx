@@ -1,5 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="OperatorServiceSelect.ascx.cs" Inherits="MVPDemo1.Controls.OperatorServiceSelect" %>
-<asp:Panel ID="pnlWarapper" runat="server">
+<asp:Panel ID="pnlWarapper" runat="server" CssClass="ControlPanel">
+	<h1>Select a state</h1>
 	<asp:DropDownList ID="ddlOperators" runat="server" AutoPostBack="true"
 		DataSource='<%# Model.Operators %>'
 		DataValueField="StateAbbr"

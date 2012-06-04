@@ -13,24 +13,6 @@ namespace MVPDemo1 {
     public partial class _Default {
         
         /// <summary>
-        /// SelectSecurityHeader1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::MVPDemo1.Controls.SelectSecurityHeader SelectSecurityHeader1;
-        
-        /// <summary>
-        /// MD1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::MVPDemo1.Controls.MessageDisplay MD1;
-        
-        /// <summary>
         /// OSS1 control.
         /// </summary>
         /// <remarks>
@@ -49,13 +31,13 @@ namespace MVPDemo1 {
         protected global::MVPDemo1.Controls.OperatorDisplay OD1;
         
         /// <summary>
-        /// LoginBySiteID1 control.
+        /// SS1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::MVPDemo1.Controls.LoginBySiteID LoginBySiteID1;
+        protected global::MVPDemo1.Controls.SiteSelect SS1;
         
         /// <summary>
         /// SiteDisplay1 control.
@@ -67,12 +49,12 @@ namespace MVPDemo1 {
         protected global::MVPDemo1.Controls.SiteDisplay SiteDisplay1;
         
         /// <summary>
-        /// SS1 control.
+        /// LoginBySiteID1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::MVPDemo1.Controls.SiteSelect SS1;
+        protected global::MVPDemo1.Controls.LoginBySiteID LoginBySiteID1;
     }
 }

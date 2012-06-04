@@ -1,5 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SiteSelect.ascx.cs" Inherits="MVPDemo1.Controls.SiteSelect" %>
-<asp:Panel ID="pnlWrapper" runat="server">
+<asp:Panel ID="pnlWrapper" runat="server" CssClass="ControlPanel" style="floating:right;">
+	<h1>Select a site</h1>
 	<asp:GridView ID="gvSitesSelect" runat="server" 
 	AutoGenerateColumns="false"
 	DataKeyNames="SiteID" 

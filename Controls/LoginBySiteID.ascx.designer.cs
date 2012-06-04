@@ -13,6 +13,15 @@ namespace MVPDemo1.Controls {
     public partial class LoginBySiteID {
         
         /// <summary>
+        /// pnlWrapper control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlWrapper;
+        
+        /// <summary>
         /// Chart1 control.
         /// </summary>
         /// <remarks>
@@ -20,14 +29,5 @@ namespace MVPDemo1.Controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.DataVisualization.Charting.Chart Chart1;
-        
-        /// <summary>
-        /// txt1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt1;
     }
 }
