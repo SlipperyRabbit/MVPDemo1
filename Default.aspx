@@ -15,7 +15,7 @@
         Welcome to MVP Demo1!
     </h2>
     <p>
-				This is my first MVP Demo!
+				Begin by selecting a state, then select a site in that state.
     </p>
 	
 		<%--<uc7:SelectSecurityHeader ID="SelectSecurityHeader1" runat="server" />--%>

@@ -23,6 +23,11 @@ namespace MVPDemo1.Controls
 			get { return (string)Session["StateAbbr"]; }
 			set { Session["StateAbbr"] = value; }
 		}
+		public List<int> SelectedSiteIDs
+		{
+			get { return (List<int>)Session["SelectedSiteIDs"]; }
+			set { Session["SelectedSiteIDs"] = value; }
+		}
 
 		public event EventHandler<OperatorSelectEventArgs> SelectModel;
 
