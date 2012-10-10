@@ -10,7 +10,7 @@
 			<asp:ListItem Text="Illinois" Value="IL" />
 			<asp:ListItem Text="Massachusettes" Value="MA" />
 			<asp:ListItem Text="Utah" Value="UT" />
-	</asp:DropDownList>
+	</asp:DropDownList><br />
 </asp:Panel>
 		<!--
 		DataSource='<%# Model.Operators %>'
